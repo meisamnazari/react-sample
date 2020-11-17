@@ -1,0 +1,29 @@
+.headerContainer{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid grey;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    justify-content: center;
+    input{
+        border: none;
+        outline: none;
+        font-size: 16px;
+        color: grey;
+    }
+    .searchButton{
+        border: 1px solid grey;
+        background-color: gray;
+        border-radius: 4px;
+        width: 70px;
+        height: 24px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}

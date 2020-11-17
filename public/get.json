@@ -1,0 +1,146 @@
+
+[
+    {
+        "id": "109d23ad-8b95-4a9d-afdf-46ef35b1b2cc",
+        "title": "Birdemic: Shock and Terror",
+        "year": "2010",
+        "imageUrl": "img/bird.jpeg",
+        "description": "A horde of mutated birds descends upon the quiet town of Half Moon Bay, California. With the death toll rising, Two citizens manage to fight back, but will they survive Birdemic?",
+        "tags": [
+            {
+                "id": "077bcbb8-1f7d-407d-9fcf-2eedf9648a04",
+                "name": "B-Movie",
+                "tagColor": "#00FFFF"
+            },
+            {
+                "id": "bf6b49e2-c7c4-4a87-9463-ef749321d84d",
+                "name": "Horror",
+                "tagColor": "#FF0000"
+            }
+        ]
+    },
+    {
+        "id": "d6d8e2e5-fcb8-4edc-8c26-e1d1790c638e",
+        "title": "Samurai Cop",
+        "year": "1991",
+        "imageUrl": "img/samurai.jpg",
+        "description": "Joe Marshall and Frank Washington are two tenacious police detectives who seek at all costs to stop the Katana, a renegade Yakuza gang composed of violent and sadistic killers who want to lead the drug trade in Los Angeles.",
+        "tags": [
+            {
+                "id": "077bcbb8-1f7d-407d-9fcf-2eedf9648a04",
+                "name": "B-Movie",
+                "tagColor": "#FF0000"
+            },
+            {
+                "id": "ac0b1150-1001-440b-8408-570eab492c6e",
+                "name": "Crime",
+                "tagColor": "#0099FF"
+            }
+        ]
+    },
+    {
+        "id": "168a4f13-046d-4e1d-ae43-d6b8b9270ed0",
+        "title": "Troll 2",
+        "year": "1990",
+        "imageUrl": "img/troll.jpg",
+        "description": "A vacationing family discovers that the entire town they're visiting is inhabited by goblins, disguised as humans, who plan to eat them.",
+        "tags": [
+            {
+                "id": "077bcbb8-1f7d-407d-9fcf-2eedf9648a04",
+                "name": "B-Movie",
+                "tagColor": "#00FFFF"
+            },
+            {
+                "id": "bf6b49e2-c7c4-4a87-9463-ef749321d84d",
+                "name": "Horror",
+                "tagColor": "#FF0000"
+            }
+        ]
+    },
+    {
+        "id": "23358c68-1663-4121-ab6e-d525a07ed649",
+        "title": "Plan 9 from Outer Space",
+        "year": "1957",
+        "imageUrl": "img/alien.jpeg",
+        "description": "Evil aliens attack Earth and set their terrible 'Plan 9' into action. As the aliens resurrect the dead of the Earth, the lives of the living are in danger.",
+        "tags": [
+            {
+                "id": "077bcbb8-1f7d-407d-9fcf-2eedf9648a04",
+                "name": "B-Movie",
+                "tagColor": "#00FFFF"
+            },
+            {
+                "id": "bf6b49e2-c7c4-4a87-9463-ef749321d84d",
+                "name": "Horror",
+                "tagColor": "#FF0000"
+            },
+            {
+                "id": "d09320b7-e3b6-4530-904d-7b0972fe1eee",
+                "name": "Sci-fi",
+                "tagColor": "#FFAA00"
+            }
+        ]
+    },
+    {
+        "id": "127e05d8-0166-4697-9e56-181ffcd42077",
+        "title": "House on Haunted Hill",
+        "year": "1959",
+        "imageUrl": "img/house.jpeg",
+        "description": "A millionaire offers $10,000 to five people who agree to be locked in a large, spooky, rented house overnight with him and his wife.",
+        "tags": [
+            {
+                "id": "077bcbb8-1f7d-407d-9fcf-2eedf9648a04",
+                "name": "B-Movie",
+                "tagColor": "#00FFFF"
+            },
+            {
+                "id": "bf6b49e2-c7c4-4a87-9463-ef749321d84d",
+                "name": "Horror",
+                "tagColor": "#FF0000"
+            },
+            {
+                "id": "ac0b1150-1001-440b-8408-570eab492c6e",
+                "name": "Crime",
+                "tagColor": "#0099FF"
+            }
+        ]
+    },
+    {
+        "id": "b904d5be-6f4b-4940-87ed-d37943a20614",
+        "title": "Enter the Ninja",
+        "year": "1981",
+        "imageUrl": "img/ninja.jpeg",
+        "description": "After passing a ninja master test in Japan, Cole visits a war buddy in the Philippines. He helps him fight men, who want his buddy's plantation.",
+        "tags": [
+            {
+                "id": "077bcbb8-1f7d-407d-9fcf-2eedf9648a04",
+                "name": "B-Movie",
+                "tagColor": "#00FFFF"
+            },
+            {
+                "id": "ac0b1150-1001-440b-8408-570eab492c6e",
+                "name": "Crime",
+                "tagColor": "#0099FF"
+            }
+        ]
+    },
+    {
+        "id": "ba537d57-e982-40a8-b42b-c2f07a6f0428",
+        "title": "Sharknado",
+        "year": "2013",
+        "imageUrl": "img/shark.jpeg",
+        "description": "When a freak hurricane swamps Los Angeles, nature's deadliest killer rules sea, land, and air as thousands of sharks terrorize the waterlogged populace.",
+        "tags": [
+            {
+                "id": "077bcbb8-1f7d-407d-9fcf-2eedf9648a04",
+                "name": "B-Movie",
+                "tagColor": "#00FFFF"
+            },
+            {
+                "id": "bf6b49e2-c7c4-4a87-9463-ef749321d84d",
+                "name": "Horror",
+                "tagColor": "#FF0000"
+            }
+        ]
+    }
+]
