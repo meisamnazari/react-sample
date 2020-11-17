@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Header from "../../components/header/header";
 import { setParameter } from "./../../actions/setParameter";
 import { connect, ConnectedProps } from "react-redux";
@@ -20,23 +20,30 @@ const Home: React.FC<PropsFromRedux> = ({ photos, setParameter }) => {
   const [filteredPhotos, changeFilteredPhotos] = useState(photos);
   const [searchText, changeSearchText] = useState("");
 
-  const onSearchClick = useCallback((tag: string) => {
-    let updatedList: PhotosModel[] = [];
+  useEffect(() => {
+    changeFilteredPhotos(photos);
+  }, [photos]);
 
-    photos.map((item: PhotosModel) => {
-      return item.tags.map((subItem: tagsModel) => {
-        if (
-          subItem.name.toLocaleLowerCase().includes(tag.toLocaleLowerCase())
-        ) {
-          if (!updatedList.includes(item)) {
-            updatedList.push(item);
+  const onSearchClick = useCallback(
+    (tag: string) => {
+      let updatedList: PhotosModel[] = [];
+
+      photos.map((item: PhotosModel) => {
+        return item.tags.map((subItem: tagsModel) => {
+          if (
+            subItem.name.toLocaleLowerCase().includes(tag.toLocaleLowerCase())
+          ) {
+            if (!updatedList.includes(item)) {
+              updatedList.push(item);
+            }
           }
-        }
+        });
       });
-    });
 
-    changeFilteredPhotos(updatedList);
-  }, []);
+      changeFilteredPhotos(updatedList);
+    },
+    [photos]
+  );
 
   return (
     <div>
