@@ -13,7 +13,11 @@ const Card = (props: PropsFromParents) => {
         <div className={"description"}>{props.item.description}</div>
         <div className={"tagsContainer"}>
           {props.item.tags.map((item: any, index: number) => {
-            return <span key={index}>{item.name}</span>;
+            return (
+              <span key={index} className={"tagsWrapper"}>
+                {item.name}
+              </span>
+            );
           })}
         </div>
       </div>
