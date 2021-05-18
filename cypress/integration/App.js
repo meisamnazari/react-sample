@@ -1,5 +1,5 @@
 describe('App Test', function () {
-    it('Visits the Planday Task website', function () {
+    it('Visits the  Task website', function () {
         cy.visit('http://localhost:3000/');
 
         // It first shows a header
