@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 describe("App Test", function () {
   it("Visits the react Task website", function () {
     cy.visit("http://localhost:3000/");
+=======
+describe('App Test', function () {
+    it('Visits the  Task website', function () {
+        cy.visit('http://localhost:3000/');
+>>>>>>> f14a71572f45f39ff6fc2bb5cb13ac85ec7cabbd
 
     // It first shows a header
     cy.get(".headerContainer");
